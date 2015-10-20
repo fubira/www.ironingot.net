@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <head>
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="Now under construction">
     <meta property="og:description" content="勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。 サーバ資源を節約したい markdownで書きたい 更新履歴を管理したい 用途から考えてWordPress+MySQLは冗長(アタックされまくるのでセキュリティ的にもよろしくない。) といったあたりの観点から、最終的に  Ghost + Buster + github-pages をチョイスして作ってみたのがこのページです。 環境を作るにあたって幾つか問題もあったのでメモ。 static page Ghost上でstatic pageとして扱うと、Busterでgenerateした際に拡張子なしテキストとして吐き出されるが、github-pages上では拡張子なし=application/octet-streamとして扱われるため、html表示されずダウンロードされてしまう。 仕方がないのでstatic pageは使わないことにする。 slider Ghostにはスライダーなんてないのでcoderkg/bxslider_plugin  を参考に、最新のbxsliderを入れてみた。 なお一部themeはbxsliderと相性が悪いらしく、epistrephein/Steam では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。...">
-    <meta property="og:url" content="https://page-ironingot-fubira.c9.io/now-under-construction/">
+    <meta property="og:url" content="https://www.ironingot.net/now-under-construction/">
     <meta property="article:published_time" content="2015-10-14T17:31:28.533Z">
     <meta property="article:modified_time" content="2015-10-20T16:56:06.926Z">
     <meta property="article:tag" content="Server">
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Now under construction">
     <meta name="twitter:description" content="勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。 サーバ資源を節約したい markdownで書きたい 更新履歴を管理したい 用途から考えてWordPress+MySQLは冗長(アタックされまくるのでセキュリティ的にもよろしくない。) といったあたりの観点から、最終的に  Ghost + Buster + github-pages をチョイスして作ってみたのがこのページです。 環境を作るにあたって幾つか問題もあったのでメモ。 static page Ghost上でstatic pageとして扱うと、Busterでgenerateした際に拡張子なしテキストとして吐き出されるが、github-pages上では拡張子なし=application/octet-streamとして扱われるため、html表示されずダウンロードされてしまう。 仕方がないのでstatic pageは使わないことにする。 slider Ghostにはスライダーなんてないのでcoderkg/bxslider_plugin  を参考に、最新のbxsliderを入れてみた。 なお一部themeはbxsliderと相性が悪いらしく、epistrephein/Steam では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。...">
-    <meta name="twitter:url" content="https://page-ironingot-fubira.c9.io/now-under-construction/">
+    <meta name="twitter:url" content="https://www.ironingot.net/now-under-construction/">
     
     <script type="application/ld+json">
 {
@@ -42,12 +42,12 @@
         "@type": "Person",
         "name": "fubira",
         "image": "//www.gravatar.com/avatar/6921f11655432d404de3bc8f1c2f1063?s=250&d=mm&r=x",
-        "url": "https://page-ironingot-fubira.c9.io/author/fubira",
+        "url": "https://www.ironingot.net/author/fubira",
         "sameAs": null,
         "description": null
     },
     "headline": "Now under construction",
-    "url": "https://page-ironingot-fubira.c9.io/now-under-construction/",
+    "url": "https://www.ironingot.net/now-under-construction/",
     "datePublished": "2015-10-14T17:31:28.533Z",
     "dateModified": "2015-10-20T16:56:06.926Z",
     "keywords": "Server",
@@ -148,13 +148,13 @@
 <h4 id="slider">slider</h4>
 
 <p>Ghostにはスライダーなんてないので<a href="https://github.com/coderkg/bxslider_plugin">coderkg/bxslider_plugin</a> <br>
-を参考に、最新の<a href="https://page-ironingot-fubira.c9.io/now-under-construction/stevenwanderski/bxslider-4">bxslider</a>を入れてみた。</p>
+を参考に、最新の<a href="https://www.ironingot.net/now-under-construction/stevenwanderski/bxslider-4">bxslider</a>を入れてみた。</p>
 
 <p>なお一部themeはbxsliderと相性が悪いらしく、<a href="https://github.com/epistrephein/Steam">epistrephein/Steam</a> では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。</p>
 
 <h4 id="buster">buster</h4>
 
-<p>pip install buster でインストールできる<a href="https://page-ironingot-fubira.c9.io/now-under-construction/axitkhurana/buster">標準のBuster</a>は少しバグがある。 <br>
+<p>pip install buster でインストールできる<a href="https://www.ironingot.net/now-under-construction/axitkhurana/buster">標準のBuster</a>は少しバグがある。 <br>
 問題点を修正済みのfork版<a href="https://github.com/alokard/buster">alokard/buster</a>を使うほうが良い。</p>
 
 <h4 id="cloud9">cloud9</h4>
@@ -177,13 +177,13 @@
 
             <section class="share">
                 <h4>Share</h4>
-                <a class="icon-twitter" href="https://twitter.com/share?text=Now%20under%20construction&amp;url=https://page-ironingot-fubira.c9.io/now-under-construction/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/share?text=Now%20under%20construction&amp;url=https://www.ironingot.net/now-under-construction/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://page-ironingot-fubira.c9.io/now-under-construction/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.ironingot.net/now-under-construction/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://page-ironingot-fubira.c9.io/now-under-construction/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://www.ironingot.net/now-under-construction/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -198,7 +198,7 @@
     <div id="secondary" class="widget-area" role="complementary">
         <aside class="widget">
             <a class="blog-logo" href="../"><img src="../content/images/2015/10/ironingotnet.png" alt="Blog Logo"></a>
-            <!--<h3 class="widget-title site-title"><a href="https://page-ironingot-fubira.c9.io">ironingot.net</a></h3>-->
+            <!--<h3 class="widget-title site-title"><a href="https://www.ironingot.net">ironingot.net</a></h3>-->
             <p class="site-description">minecraft server
 </p>
         </aside>

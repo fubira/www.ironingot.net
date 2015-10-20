@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <head>
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="CraftBukkit-1.8 memo">
     <meta property="og:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java...">
-    <meta property="og:url" content="https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/">
+    <meta property="og:url" content="https://www.ironingot.net/craftbukkit-1-8-memo/">
     <meta property="article:published_time" content="2014-12-05T19:49:00.000Z">
     <meta property="article:modified_time" content="2015-10-14T17:10:15.998Z">
     <meta property="article:tag" content="Minecraft">
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="CraftBukkit-1.8 memo">
     <meta name="twitter:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java...">
-    <meta name="twitter:url" content="https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/">
+    <meta name="twitter:url" content="https://www.ironingot.net/craftbukkit-1-8-memo/">
     
     <script type="application/ld+json">
 {
@@ -42,12 +42,12 @@
         "@type": "Person",
         "name": "fubira",
         "image": "//www.gravatar.com/avatar/6921f11655432d404de3bc8f1c2f1063?s=250&d=mm&r=x",
-        "url": "https://page-ironingot-fubira.c9.io/author/fubira",
+        "url": "https://www.ironingot.net/author/fubira",
         "sameAs": null,
         "description": null
     },
     "headline": "CraftBukkit-1.8 memo",
-    "url": "https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/",
+    "url": "https://www.ironingot.net/craftbukkit-1-8-memo/",
     "datePublished": "2014-12-05T19:49:00.000Z",
     "dateModified": "2015-10-14T17:10:15.998Z",
     "keywords": "Minecraft",
@@ -206,13 +206,13 @@
 
             <section class="share">
                 <h4>Share</h4>
-                <a class="icon-twitter" href="https://twitter.com/share?text=CraftBukkit-1.8%20memo&amp;url=https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/share?text=CraftBukkit-1.8%20memo&amp;url=https://www.ironingot.net/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.ironingot.net/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://www.ironingot.net/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -227,7 +227,7 @@
     <div id="secondary" class="widget-area" role="complementary">
         <aside class="widget">
             <a class="blog-logo" href="../"><img src="../content/images/2015/10/ironingotnet.png" alt="Blog Logo"></a>
-            <!--<h3 class="widget-title site-title"><a href="https://page-ironingot-fubira.c9.io">ironingot.net</a></h3>-->
+            <!--<h3 class="widget-title site-title"><a href="https://www.ironingot.net">ironingot.net</a></h3>-->
             <p class="site-description">minecraft server
 </p>
         </aside>

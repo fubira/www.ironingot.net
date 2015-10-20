@@ -1,7 +1,11 @@
 $(document).ready(function(){
   $('.bxslider').bxSlider({
+	mode: 'fade',
+  speed: 3000,
   auto: true,
-  slideWidth: 720,
+	captions: false,
+	controls: false,
+	slideWidth: 720,
   slideMargin: 0
 });
 });

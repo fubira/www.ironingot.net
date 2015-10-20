@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://page-ironingot-fubira.c9.io/sitemap.xml
+Disallow: /ghost/

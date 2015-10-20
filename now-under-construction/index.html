@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Now under construction</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=ac1c951ce2">
+    <link rel="stylesheet" type="text/css" href="../assets/fonts/font-awesome.css?v=ac1c951ce2">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../assets/js/jquery.ghostHunter.js?v=ac1c951ce2"></script>
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="ironingot.net">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Now under construction">
+    <meta property="og:description" content="勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。 サーバ資源を節約したい markdownで書きたい 更新履歴を管理したい 用途から考えてWordPress+MySQLは冗長(アタックされまくるのでセキュリティ的にもよろしくない。) といったあたりの観点から、最終的に  Ghost + Buster + github-pages をチョイスして作ってみたのがこのページです。 環境を作るにあたって幾つか問題もあったのでメモ。 static page Ghost上でstatic pageとして扱うと、Busterでgenerateした際に拡張子なしテキストとして吐き出されるが、github-pages上では拡張子なし=application/octet-streamとして扱われるため、html表示されずダウンロードされてしまう。 仕方がないのでstatic pageは使わないことにする。 slider Ghostにはスライダーなんてないのでcoderkg/bxslider_plugin  を参考に、最新のbxsliderを入れてみた。 なお一部themeはbxsliderと相性が悪いらしく、epistrephein/Steam では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。...">
+    <meta property="og:url" content="https://page-ironingot-fubira.c9.io/now-under-construction/">
+    <meta property="article:published_time" content="2015-10-14T17:31:28.533Z">
+    <meta property="article:modified_time" content="2015-10-20T16:56:06.926Z">
+    <meta property="article:tag" content="Server">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Now under construction">
+    <meta name="twitter:description" content="勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。 サーバ資源を節約したい markdownで書きたい 更新履歴を管理したい 用途から考えてWordPress+MySQLは冗長(アタックされまくるのでセキュリティ的にもよろしくない。) といったあたりの観点から、最終的に  Ghost + Buster + github-pages をチョイスして作ってみたのがこのページです。 環境を作るにあたって幾つか問題もあったのでメモ。 static page Ghost上でstatic pageとして扱うと、Busterでgenerateした際に拡張子なしテキストとして吐き出されるが、github-pages上では拡張子なし=application/octet-streamとして扱われるため、html表示されずダウンロードされてしまう。 仕方がないのでstatic pageは使わないことにする。 slider Ghostにはスライダーなんてないのでcoderkg/bxslider_plugin  を参考に、最新のbxsliderを入れてみた。 なお一部themeはbxsliderと相性が悪いらしく、epistrephein/Steam では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。...">
+    <meta name="twitter:url" content="https://page-ironingot-fubira.c9.io/now-under-construction/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "ironingot.net",
+    "author": {
+        "@type": "Person",
+        "name": "fubira",
+        "image": "//www.gravatar.com/avatar/6921f11655432d404de3bc8f1c2f1063?s=250&d=mm&r=x",
+        "url": "https://page-ironingot-fubira.c9.io/author/fubira",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Now under construction",
+    "url": "https://page-ironingot-fubira.c9.io/now-under-construction/",
+    "datePublished": "2015-10-14T17:31:28.533Z",
+    "dateModified": "2015-10-20T16:56:06.926Z",
+    "keywords": "Server",
+    "description": "勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。 サーバ資源を節約したい markdownで書きたい 更新履歴を管理したい 用途から考えてWordPress+MySQLは冗長(アタックされまくるのでセキュリティ的にもよろしくない。) といったあたりの観点から、最終的に  Ghost + Buster + github-pages をチョイスして作ってみたのがこのページです。 環境を作るにあたって幾つか問題もあったのでメモ。 static page Ghost上でstatic pageとして扱うと、Busterでgenerateした際に拡張子なしテキストとして吐き出されるが、github-pages上では拡張子なし=application/octet-streamとして扱われるため、html表示されずダウンロードされてしまう。 仕方がないのでstatic pageは使わないことにする。 slider Ghostにはスライダーなんてないのでcoderkg/bxslider_plugin  を参考に、最新のbxsliderを入れてみた。 なお一部themeはbxsliderと相性が悪いらしく、epistrephein/Steam では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="ironingot.net" href="../rss/index.html">
+</head>
+<body class="post-template tag-server">
+
+<div id="page" class="hfeed site">
+
+    <header id="masthead" class="site-header" role="banner">
+        <div class="header-wrapper">
+            <nav id="site-navigation" class="main-navigation" role="navigation">
+                <button class="menu-toggle">Menu</button>
+                <ul class="nav">
+    <li class="nav-home" role="presentation"><a href="../">HOME</a></li>
+    <li class="nav-minecraft-server" role="presentation"><a href="../minecraft-server/">Minecraft Server</a></li>
+    <li class="nav-dynmap" role="presentation"><a href="http://dynmap.ironingot.net/">Dynmap</a></li>
+    <li class="nav-plugins" role="presentation"><a href="../plugins/">Plugins</a></li>
+</ul>
+            </nav><!-- #site-navigation -->
+
+            <div id="site-search" class="header-search">
+                <div class="header-search-form">
+            <form class="search-form">
+                <label>
+                    <span class="screen-reader-text">Search archives</span>
+                    <span class="search-icon">
+                    <a href="index.html" class="search-toggle"><span class="screen-reader-text">Search</span></a>
+                    </span>
+                    <input type="search" id="search-field" class="search-field" placeholder="Search..." value="" name="s" title="Search...">
+                </label>
+                <input type="submit" class="search-submit" value="search">
+            </form>
+            </div><!-- #search -->
+            </div><!-- #search -->
+
+        </div><!-- .header-wrapper -->
+
+        <!--
+        <div class="header-image">
+            
+        </div>
+        -->
+        <!-- .header-image -->
+    </header><!-- #masthead -->
+
+    <div id="content" class="site-content">
+
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <section id="results"></section>
+                <script>
+                    $("#search-field").ghostHunter({
+                        results   : "#results"
+                    });
+                </script>
+
+                
+
+<article class="post tag-server hentry">
+<div class="entry-meta">
+    <div class="meta-date">20 Oct 2015</div>
+    <div></div>
+</div>
+
+<div class="content-wrapper">
+    <header class="entry-header">
+        <h1 class="entry-title">Now under construction</h1>
+    </header><!-- .entry-header -->
+
+
+        <div class="entry-content">
+            <p>勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。</p>
+
+<ul>
+<li>サーバ資源を節約したい</li>
+<li>markdownで書きたい</li>
+<li>更新履歴を管理したい</li>
+<li>用途から考えてWordPress+MySQLは冗長(アタックされまくるのでセキュリティ的にもよろしくない。)</li>
+</ul>
+
+<p>といったあたりの観点から、最終的に
+ <a href="https://ghost.org/">Ghost</a> + <a href="https://github.com/axitkhurana/buster">Buster</a> + <a href="https://pages.github.com">github-pages</a> をチョイスして作ってみたのがこのページです。</p>
+
+<p>環境を作るにあたって幾つか問題もあったのでメモ。</p>
+
+<h4 id="staticpage">static page</h4>
+
+<p>Ghost上でstatic pageとして扱うと、Busterでgenerateした際に拡張子なしテキストとして吐き出されるが、github-pages上では拡張子なし=application/octet-streamとして扱われるため、html表示されずダウンロードされてしまう。</p>
+
+<p>仕方がないのでstatic pageは使わないことにする。</p>
+
+<h4 id="slider">slider</h4>
+
+<p>Ghostにはスライダーなんてないので<a href="https://github.com/coderkg/bxslider_plugin">coderkg/bxslider_plugin</a> <br>
+を参考に、最新の<a href="https://page-ironingot-fubira.c9.io/now-under-construction/stevenwanderski/bxslider-4">bxslider</a>を入れてみた。</p>
+
+<p>なお一部themeはbxsliderと相性が悪いらしく、<a href="https://github.com/epistrephein/Steam">epistrephein/Steam</a> では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。</p>
+
+<h4 id="buster">buster</h4>
+
+<p>pip install buster でインストールできる<a href="https://page-ironingot-fubira.c9.io/now-under-construction/axitkhurana/buster">標準のBuster</a>は少しバグがある。 <br>
+問題点を修正済みのfork版<a href="https://github.com/alokard/buster">alokard/buster</a>を使うほうが良い。</p>
+
+<h4 id="cloud9">cloud9</h4>
+
+<p><a href="http://c9.io"><img src="../content/images/2015/10/Cloud9IDE.png" alt="Cloud9IDE" title=""></a></p>
+
+<p>まじおすすめ。</p>
+        </div>
+
+        <footer class="entry-footer post-footer">
+
+            <section class="author">
+                <h4>fubira</h4>
+                <p></p>
+                <ul class="author-meta clearfix">
+                    
+                    
+                </ul>
+            </section>
+
+            <section class="share">
+                <h4>Share</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Now%20under%20construction&amp;url=https://page-ironingot-fubira.c9.io/now-under-construction/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://page-ironingot-fubira.c9.io/now-under-construction/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://page-ironingot-fubira.c9.io/now-under-construction/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+</div>
+</article>
+        </main><!-- #main -->
+    </div><!-- #primary -->
+
+    <div id="secondary" class="widget-area" role="complementary">
+        <aside class="widget">
+            <a class="blog-logo" href="../"><img src="../content/images/2015/10/ironingotnet.png" alt="Blog Logo"></a>
+            <!--<h3 class="widget-title site-title"><a href="https://page-ironingot-fubira.c9.io">ironingot.net</a></h3>-->
+            <p class="site-description">minecraft server
+</p>
+        </aside>
+
+        <aside class="widget" id="sidebar-links">
+                <ul id="sidebar-externals">
+                    
+<!-- <li class="external-link"><a href="https://twitter.com/fubira"><i class="fa fa-twitter"></i></a></li> -->
+<li class="external-link"><a href="https://github.com/fubira"><i class="fa fa-github"></i></a></li>
+<!-- <li class="external-link"><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+<li class="external-link"><a href="../rss/index.rss"><i class="fa fa-rss"></i> </a></li>                </ul>
+        </aside>
+
+        <footer class="site-footer">
+            <div class="site-info">
+                <section class="copyright">Theme by <a href="https://diversethemes.com">Diverse Themes</a></section>
+                <section class="poweredby">Published with <a href="https://ghost.org">Ghost</a></section>
+            </div>
+        </footer>
+    </div><!-- #secondary -->
+
+    </div><!-- #content -->
+</div><!-- #page -->
+
+    
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=ac1c951ce2"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=ac1c951ce2"></script>
+    <script type="text/javascript" src="../assets/js/navigation.js?v=ac1c951ce2"></script>
+
+    <!-- jQuery bxslider -->
+
+<!-- Load javascript -->
+<script type="text/javascript" src="../assets/bxslider/jquery.bxslider.min.js?v=ac1c951ce2"></script>
+
+<!-- Link CSS -->
+<link href="../assets/bxslider/jquery.bxslider.min.css?v=ac1c951ce2" rel="stylesheet">
+
+<!-- Initiate instances -->
+<script type="text/javascript" src="../assets/bxslider/options/options.bxslider.js?v=ac1c951ce2"></script>
+
+<!-- jQuery bxslider end -->
+</body>
+</html>

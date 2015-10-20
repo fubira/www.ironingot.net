@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>CraftBukkit-1.8 memo</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=ac1c951ce2">
+    <link rel="stylesheet" type="text/css" href="../assets/fonts/font-awesome.css?v=ac1c951ce2">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../assets/js/jquery.ghostHunter.js?v=ac1c951ce2"></script>
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="ironingot.net">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="CraftBukkit-1.8 memo">
+    <meta property="og:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java...">
+    <meta property="og:url" content="https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/">
+    <meta property="article:published_time" content="2014-12-05T19:49:00.000Z">
+    <meta property="article:modified_time" content="2015-10-14T17:10:15.998Z">
+    <meta property="article:tag" content="Minecraft">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="CraftBukkit-1.8 memo">
+    <meta name="twitter:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java...">
+    <meta name="twitter:url" content="https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "ironingot.net",
+    "author": {
+        "@type": "Person",
+        "name": "fubira",
+        "image": "//www.gravatar.com/avatar/6921f11655432d404de3bc8f1c2f1063?s=250&d=mm&r=x",
+        "url": "https://page-ironingot-fubira.c9.io/author/fubira",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "CraftBukkit-1.8 memo",
+    "url": "https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/",
+    "datePublished": "2014-12-05T19:49:00.000Z",
+    "dateModified": "2015-10-14T17:10:15.998Z",
+    "keywords": "Minecraft",
+    "description": "Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="ironingot.net" href="../rss/index.html">
+</head>
+<body class="post-template tag-minecraft">
+
+<div id="page" class="hfeed site">
+
+    <header id="masthead" class="site-header" role="banner">
+        <div class="header-wrapper">
+            <nav id="site-navigation" class="main-navigation" role="navigation">
+                <button class="menu-toggle">Menu</button>
+                <ul class="nav">
+    <li class="nav-home" role="presentation"><a href="../">HOME</a></li>
+    <li class="nav-minecraft-server" role="presentation"><a href="../minecraft-server/">Minecraft Server</a></li>
+    <li class="nav-dynmap" role="presentation"><a href="http://dynmap.ironingot.net/">Dynmap</a></li>
+    <li class="nav-plugins" role="presentation"><a href="../plugins/">Plugins</a></li>
+</ul>
+            </nav><!-- #site-navigation -->
+
+            <div id="site-search" class="header-search">
+                <div class="header-search-form">
+            <form class="search-form">
+                <label>
+                    <span class="screen-reader-text">Search archives</span>
+                    <span class="search-icon">
+                    <a href="index.html" class="search-toggle"><span class="screen-reader-text">Search</span></a>
+                    </span>
+                    <input type="search" id="search-field" class="search-field" placeholder="Search..." value="" name="s" title="Search...">
+                </label>
+                <input type="submit" class="search-submit" value="search">
+            </form>
+            </div><!-- #search -->
+            </div><!-- #search -->
+
+        </div><!-- .header-wrapper -->
+
+        <!--
+        <div class="header-image">
+            
+        </div>
+        -->
+        <!-- .header-image -->
+    </header><!-- #masthead -->
+
+    <div id="content" class="site-content">
+
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <section id="results"></section>
+                <script>
+                    $("#search-field").ghostHunter({
+                        results   : "#results"
+                    });
+                </script>
+
+                
+
+<article class="post tag-minecraft hentry">
+<div class="entry-meta">
+    <div class="meta-date">20 Oct 2015</div>
+    <div></div>
+</div>
+
+<div class="content-wrapper">
+    <header class="entry-header">
+        <h1 class="entry-title">CraftBukkit-1.8 memo</h1>
+    </header><!-- .entry-header -->
+
+
+        <div class="entry-content">
+            <h2 id="bukkitcraftbukkitspigot">Bukkit/CraftBukkit/Spigot  </h2>
+
+<p>Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。</p>
+
+<p>公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。</p>
+
+<hr>
+
+<h4 id="">看板データの変換問題</h4>
+
+<p>CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。 <br>
+この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、</p>
+
+<p><strong>全てのロックチェストの看板の[ ]が消滅し、ロックが外れる</strong></p>
+
+<p>という現象が発生する。</p>
+
+<p><img src="../content/images/2015/10/2014-12-06_04-22-32.jpg" alt="ロックが機能していない状態"></p>
+
+<p>セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。</p>
+
+<p><code>$ java -Xmx1024M -Xms1024M -DconvertLegacySigns=true -jar craftbukkit.jar</code></p>
+
+<p>変換と同時に看板の内部データに変換済みのフラグを埋め込むため、2重3重に変換がかかる心配はないが、1.8でこのフラグ無しですでに読み込んでしまったワールドは変換処理をせずJSON型で保存済みのため、その後 convertLegacySigns を有効にすると2重変換がかかり、下記のように看板の内容が破損する。</p>
+
+<p><img src="/content/images/2015/10/2014-12-06_03-40-31.jpg" alt="空行が null になり、文章行は "></p>
+
+<p>すでに1.8で起動してしまったワールドを今後も使いたい場合、後からconvertLegacySignsを設定するのはおすすめできない。泣きながらワールド中の看板を貼り直すことになる可能性が高い。</p>
+
+<p><strong>そんな状況に陥らないためにもバックアップを忘れずに。</strong></p>
+
+<p>※このフラグの情報が現状出てないのは、このようにワールドを壊す危険性が高いからだと推測される。また公にしていない以上、今後仕様を変えてくる可能性も考えられる。</p>
+
+<hr>
+
+<p>各プラグインの対応状況</p>
+
+<h3 id="worldeditworldguardpermissionsexessentials">WorldEdit, WorldGuard, PermissionsEx, Essentials</h3>
+
+<p>Guavaのバージョンアップに伴って問題の出る主要プラグインをSpigotチームが独自に配布している。</p>
+
+<h3 id="multiverse">Multiverse</h3>
+
+<p>開発関係者が1.8でも問題ないと発言</p>
+
+<h3 id="dynmap">Dynmap</h3>
+
+<p>dev版が出ている</p>
+
+<h3 id="lockette">Lockette</h3>
+
+<p>前述の看板データ変換問題がある
+現行のもので動作は問題ない</p>
+
+<h3 id="blockhat">BlockHat</h3>
+
+<p>現状エラーが出て動かない。
+メンテも長らくされてないので今後が怪しい。</p>
+
+<h3 id="playerheads">PlayerHeads</h3>
+
+<p>現状動かないけどそこそこ頻繁にメンテされているのでそのうち対応されると思われる</p>
+
+<h3 id="hawkeye">HawkEye</h3>
+
+<p>エラーは出てないけどブロック増えてる分の挙動は不明</p>
+        </div>
+
+        <footer class="entry-footer post-footer">
+
+            <section class="author">
+                <h4>fubira</h4>
+                <p></p>
+                <ul class="author-meta clearfix">
+                    
+                    
+                </ul>
+            </section>
+
+            <section class="share">
+                <h4>Share</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=CraftBukkit-1.8%20memo&amp;url=https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+</div>
+</article>
+        </main><!-- #main -->
+    </div><!-- #primary -->
+
+    <div id="secondary" class="widget-area" role="complementary">
+        <aside class="widget">
+            <a class="blog-logo" href="../"><img src="../content/images/2015/10/ironingotnet.png" alt="Blog Logo"></a>
+            <!--<h3 class="widget-title site-title"><a href="https://page-ironingot-fubira.c9.io">ironingot.net</a></h3>-->
+            <p class="site-description">minecraft server
+</p>
+        </aside>
+
+        <aside class="widget" id="sidebar-links">
+                <ul id="sidebar-externals">
+                    
+<!-- <li class="external-link"><a href="https://twitter.com/fubira"><i class="fa fa-twitter"></i></a></li> -->
+<li class="external-link"><a href="https://github.com/fubira"><i class="fa fa-github"></i></a></li>
+<!-- <li class="external-link"><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+<li class="external-link"><a href="../rss/index.rss"><i class="fa fa-rss"></i> </a></li>                </ul>
+        </aside>
+
+        <footer class="site-footer">
+            <div class="site-info">
+                <section class="copyright">Theme by <a href="https://diversethemes.com">Diverse Themes</a></section>
+                <section class="poweredby">Published with <a href="https://ghost.org">Ghost</a></section>
+            </div>
+        </footer>
+    </div><!-- #secondary -->
+
+    </div><!-- #content -->
+</div><!-- #page -->
+
+    
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=ac1c951ce2"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=ac1c951ce2"></script>
+    <script type="text/javascript" src="../assets/js/navigation.js?v=ac1c951ce2"></script>
+
+    <!-- jQuery bxslider -->
+
+<!-- Load javascript -->
+<script type="text/javascript" src="../assets/bxslider/jquery.bxslider.min.js?v=ac1c951ce2"></script>
+
+<!-- Link CSS -->
+<link href="../assets/bxslider/jquery.bxslider.min.css?v=ac1c951ce2" rel="stylesheet">
+
+<!-- Initiate instances -->
+<script type="text/javascript" src="../assets/bxslider/options/options.bxslider.js?v=ac1c951ce2"></script>
+
+<!-- jQuery bxslider end -->
+</body>
+</html>

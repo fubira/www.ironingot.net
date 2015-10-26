@@ -1,6 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>ironingot.net</title><description>minecraft server
-</description><link>https://www.ironingot.net/</link><generator>Ghost 0.7</generator><lastBuildDate>Wed, 21 Oct 2015 01:35:34 GMT</lastBuildDate><atom:link href="https://www.ironingot.net/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Now under construction</title><description>&lt;p&gt;勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。&lt;/p&gt;
+</description><link>https://page-ironingot-fubira.c9.io/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 26 Oct 2015 01:53:32 GMT</lastBuildDate><atom:link href="https://page-ironingot-fubira.c9.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Now under construction</title><description>&lt;p&gt;勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;サーバ資源を節約したい&lt;/li&gt;
@@ -23,13 +23,13 @@
 &lt;h4 id="slider"&gt;slider&lt;/h4&gt;
 
 &lt;p&gt;Ghostにはスライダーなんてないので&lt;a href="https://github.com/coderkg/bxslider_plugin"&gt;coderkg/bxslider_plugin&lt;/a&gt; &lt;br&gt;
-を参考に、最新の&lt;a href="https://www.ironingot.net/now-under-construction/stevenwanderski/bxslider-4"&gt;bxslider&lt;/a&gt;を入れてみた。&lt;/p&gt;
+を参考に、最新の&lt;a href="https://page-ironingot-fubira.c9.io/now-under-construction/stevenwanderski/bxslider-4"&gt;bxslider&lt;/a&gt;を入れてみた。&lt;/p&gt;
 
 &lt;p&gt;なお一部themeはbxsliderと相性が悪いらしく、&lt;a href="https://github.com/epistrephein/Steam"&gt;epistrephein/Steam&lt;/a&gt; では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。&lt;/p&gt;
 
 &lt;h4 id="buster"&gt;buster&lt;/h4&gt;
 
-&lt;p&gt;pip install buster でインストールできる&lt;a href="https://www.ironingot.net/now-under-construction/axitkhurana/buster"&gt;標準のBuster&lt;/a&gt;は少しバグがある。&lt;/p&gt;</description><link>https://www.ironingot.net/now-under-construction/</link><guid isPermaLink="false">f32b8059-462c-4e55-80e1-8e59c8427c3a</guid><category>Server</category><dc:creator>fubira</dc:creator><pubDate>Wed, 14 Oct 2015 17:31:28 GMT</pubDate><content:encoded>&lt;p&gt;勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。&lt;/p&gt;
+&lt;p&gt;pip install buster でインストールできる&lt;a href="https://page-ironingot-fubira.c9.io/now-under-construction/axitkhurana/buster"&gt;標準のBuster&lt;/a&gt;は少しバグがある。&lt;/p&gt;</description><link>https://page-ironingot-fubira.c9.io/now-under-construction/</link><guid isPermaLink="false">f32b8059-462c-4e55-80e1-8e59c8427c3a</guid><category>Server</category><dc:creator>fubira</dc:creator><pubDate>Wed, 14 Oct 2015 17:31:28 GMT</pubDate><content:encoded>&lt;p&gt;勉強も兼ねて、これまでこのサイトのトップページはWordPressで作っていたのだけれども、サーバ資源的にも運用負荷的にも無駄が多いと感じていたこともあって、もっとシンプルに・楽に使えそうな環境をここのところ探していた。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;サーバ資源を節約したい&lt;/li&gt;
@@ -52,13 +52,13 @@
 &lt;h4 id="slider"&gt;slider&lt;/h4&gt;
 
 &lt;p&gt;Ghostにはスライダーなんてないので&lt;a href="https://github.com/coderkg/bxslider_plugin"&gt;coderkg/bxslider_plugin&lt;/a&gt; &lt;br&gt;
-を参考に、最新の&lt;a href="https://www.ironingot.net/now-under-construction/stevenwanderski/bxslider-4"&gt;bxslider&lt;/a&gt;を入れてみた。&lt;/p&gt;
+を参考に、最新の&lt;a href="https://page-ironingot-fubira.c9.io/now-under-construction/stevenwanderski/bxslider-4"&gt;bxslider&lt;/a&gt;を入れてみた。&lt;/p&gt;
 
 &lt;p&gt;なお一部themeはbxsliderと相性が悪いらしく、&lt;a href="https://github.com/epistrephein/Steam"&gt;epistrephein/Steam&lt;/a&gt; では表示位置がずれたり、読み込み状態のまま進まなかったりしていて困った。&lt;/p&gt;
 
 &lt;h4 id="buster"&gt;buster&lt;/h4&gt;
 
-&lt;p&gt;pip install buster でインストールできる&lt;a href="https://www.ironingot.net/now-under-construction/axitkhurana/buster"&gt;標準のBuster&lt;/a&gt;は少しバグがある。 &lt;br&gt;
+&lt;p&gt;pip install buster でインストールできる&lt;a href="https://page-ironingot-fubira.c9.io/now-under-construction/axitkhurana/buster"&gt;標準のBuster&lt;/a&gt;は少しバグがある。 &lt;br&gt;
 問題点を修正済みのfork版&lt;a href="https://github.com/alokard/buster"&gt;alokard/buster&lt;/a&gt;を使うほうが良い。&lt;/p&gt;
 
 &lt;h4 id="domain"&gt;domain&lt;/h4&gt;
@@ -70,7 +70,7 @@
 
 &lt;p&gt;超便利。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://c9.io"&gt;&lt;img src="https://www.ironingot.net/content/images/2015/10/Cloud9IDE.png" alt="Cloud9IDE" title=""&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Plugins</title><description>&lt;p&gt;&lt;mark&gt; メンテナンス中 &lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://c9.io"&gt;&lt;img src="https://page-ironingot-fubira.c9.io/content/images/2015/10/Cloud9IDE.png" alt="Cloud9IDE" title=""&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Plugins</title><description>&lt;p&gt;&lt;mark&gt; メンテナンス中 &lt;/mark&gt;&lt;/p&gt;
 
 &lt;h3 id="omikuji"&gt;omikuji&lt;/h3&gt;
 
@@ -84,7 +84,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/fubira/NihongoChat"&gt;github&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://ci.codearts.jp/job/NihongoChat"&gt;jenkins&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><link>https://www.ironingot.net/plugins/</link><guid isPermaLink="false">6c073c43-f235-413b-a68c-2f1a9e52a1f3</guid><category>Plugins</category><dc:creator>fubira</dc:creator><pubDate>Wed, 14 Oct 2015 17:28:10 GMT</pubDate><content:encoded>&lt;p&gt;&lt;mark&gt; メンテナンス中 &lt;/mark&gt;&lt;/p&gt;
+&lt;/ul&gt;</description><link>https://page-ironingot-fubira.c9.io/plugins/</link><guid isPermaLink="false">6c073c43-f235-413b-a68c-2f1a9e52a1f3</guid><category>Plugins</category><dc:creator>fubira</dc:creator><pubDate>Wed, 14 Oct 2015 17:28:10 GMT</pubDate><content:encoded>&lt;p&gt;&lt;mark&gt; メンテナンス中 &lt;/mark&gt;&lt;/p&gt;
 
 &lt;h3 id="omikuji"&gt;omikuji&lt;/h3&gt;
 
@@ -117,7 +117,7 @@ Address: ironingot.net &lt;br&gt;
 Server: CloudCore VPS CV02 &lt;br&gt;
 Dynmap: &lt;a href="http://dynmap.ironingot.net/"&gt;http://dynmap.ironingot.net/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;嫌儲鯖はかなりのハイスペックマシンですが、こちらは並のVPSなので特にCPU負荷に弱いです。allの目安は500を上限とし、できるだけ1箇所にMobを集めないよう注意してください。&lt;/p&gt;</description><link>https://www.ironingot.net/minecraft-server/</link><guid isPermaLink="false">d1a5eae7-5f56-4e9c-8c72-d843caed56c4</guid><category>Server</category><dc:creator>fubira</dc:creator><pubDate>Wed, 14 Oct 2015 17:19:30 GMT</pubDate><content:encoded>&lt;h2 id="information"&gt;Information&lt;/h2&gt;
+&lt;p&gt;嫌儲鯖はかなりのハイスペックマシンですが、こちらは並のVPSなので特にCPU負荷に弱いです。allの目安は500を上限とし、できるだけ1箇所にMobを集めないよう注意してください。&lt;/p&gt;</description><link>https://page-ironingot-fubira.c9.io/minecraft-server/</link><guid isPermaLink="false">d1a5eae7-5f56-4e9c-8c72-d843caed56c4</guid><category>Server</category><dc:creator>fubira</dc:creator><pubDate>Wed, 14 Oct 2015 17:19:30 GMT</pubDate><content:encoded>&lt;h2 id="information"&gt;Information&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;ironingot minecraft server&lt;/strong&gt;は、主に嫌儲Minecraft部(kenmomine.biz)の避難所として運用しているサーバです。動作確認や鯖落ち時の避難にご利用ください。Worldが今後も保護される保証はありませんので、定住はお勧めできません。&lt;/p&gt;
 
@@ -145,7 +145,7 @@ Dynmap: &lt;a href="http://dynmap.ironingot.net/"&gt;http://dynmap.ironingot.net
 &lt;pre&gt;&lt;code&gt;root@nagato:/var/lib/mysql# ls -lah  
 total 80G  
 drwx------ 10 mysql mysql 4.0K May  7 17:47 .  
-drwxr-xr-x 59 root  root  4.0K Nov  5  2014&lt;/code&gt;&lt;/pre&gt;</description><link>https://www.ironingot.net/spigot-1-8-3-hawkeye-issue/</link><guid isPermaLink="false">f7056d39-63db-4de5-adb7-efbf02256157</guid><category>Minecraft</category><dc:creator>fubira</dc:creator><pubDate>Fri, 08 May 2015 17:29:00 GMT</pubDate><content:encoded>&lt;p&gt;鯖をCraftBukkit 1.7.2 -&gt; Spigot 1.8.3 に変えてみたところ案の定いろいろ問題が出たけども、その中で最も危険だった問題点をメモしておく。&lt;/p&gt;
+drwxr-xr-x 59 root  root  4.0K Nov  5  2014&lt;/code&gt;&lt;/pre&gt;</description><link>https://page-ironingot-fubira.c9.io/spigot-1-8-3-hawkeye-issue/</link><guid isPermaLink="false">f7056d39-63db-4de5-adb7-efbf02256157</guid><category>Minecraft</category><dc:creator>fubira</dc:creator><pubDate>Fri, 08 May 2015 17:29:00 GMT</pubDate><content:encoded>&lt;p&gt;鯖をCraftBukkit 1.7.2 -&gt; Spigot 1.8.3 に変えてみたところ案の定いろいろ問題が出たけども、その中で最も危険だった問題点をメモしておく。&lt;/p&gt;
 
 &lt;p&gt;1.8.3 への移行直後、Spigot鯖とは別のネットワークに置いてあったMySQL鯖に対してHawkeyeがすごい勢いでクエリを投げはじめ、送りきれないQueueが大量に蓄積されていってサーバが非常に重くなる現象が発生、まともにゲームができなくなってしまった。&lt;/p&gt;
 
@@ -176,8 +176,8 @@ drwxr-xr-x 59 root  root  4.0K Nov  5  2014 ..
 
 &lt;p&gt;これらのデータが何を意味しているかというと、こちら。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://www.ironingot.net/content/images/2015/10/2015-05-09_02-27-12-1024x576.jpg" alt="ホッパー"&gt;
-&lt;img src="https://www.ironingot.net/content/images/2015/10/2015-05-09_02-27-24-1024x576.jpg" alt="中身が詰まった"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://page-ironingot-fubira.c9.io/content/images/2015/10/2015-05-09_02-27-12-1024x576.jpg" alt="ホッパー"&gt;
+&lt;img src="https://page-ironingot-fubira.c9.io/content/images/2015/10/2015-05-09_02-27-24-1024x576.jpg" alt="中身が詰まった"&gt;&lt;/p&gt;
 
 &lt;p&gt;接続先が一杯で内容物を移動できないホッパーのchest transaction(28)が大量に記録されていたのだった。1.8になってEventの挙動が変わったのか？&lt;/p&gt;
 
@@ -216,13 +216,13 @@ drwxr-xr-x 59 root  root  4.0K Nov  5  2014 ..
 
 &lt;p&gt;という現象が発生する。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://www.ironingot.net/content/images/2015/10/2014-12-06_04-22-32.jpg" alt="ロックが機能していない状態"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://page-ironingot-fubira.c9.io/content/images/2015/10/2014-12-06_04-22-32.jpg" alt="ロックが機能していない状態"&gt;&lt;/p&gt;
 
 &lt;p&gt;セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;$ java -Xmx1024M -Xms1024M -DconvertLegacySigns=true -jar craftbukkit.jar&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;変換と同時に看板の内部データに変換済みのフラグを埋め込むため、2重3重に変換がかかる心配はないが、1.&lt;/p&gt;</description><link>https://www.ironingot.net/craftbukkit-1-8-memo/</link><guid isPermaLink="false">b31609d4-f0db-4ab4-b20a-7906b9c06229</guid><category>Minecraft</category><dc:creator>fubira</dc:creator><pubDate>Fri, 05 Dec 2014 19:49:00 GMT</pubDate><content:encoded>&lt;h2 id="bukkitcraftbukkitspigot"&gt;Bukkit/CraftBukkit/Spigot  &lt;/h2&gt;
+&lt;p&gt;変換と同時に看板の内部データに変換済みのフラグを埋め込むため、2重3重に変換がかかる心配はないが、1.&lt;/p&gt;</description><link>https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/</link><guid isPermaLink="false">b31609d4-f0db-4ab4-b20a-7906b9c06229</guid><category>Minecraft</category><dc:creator>fubira</dc:creator><pubDate>Fri, 05 Dec 2014 19:49:00 GMT</pubDate><content:encoded>&lt;h2 id="bukkitcraftbukkitspigot"&gt;Bukkit/CraftBukkit/Spigot  &lt;/h2&gt;
 
 &lt;p&gt;Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。&lt;/p&gt;
 
@@ -239,7 +239,7 @@ drwxr-xr-x 59 root  root  4.0K Nov  5  2014 ..
 
 &lt;p&gt;という現象が発生する。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://www.ironingot.net/content/images/2015/10/2014-12-06_04-22-32.jpg" alt="ロックが機能していない状態"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://page-ironingot-fubira.c9.io/content/images/2015/10/2014-12-06_04-22-32.jpg" alt="ロックが機能していない状態"&gt;&lt;/p&gt;
 
 &lt;p&gt;セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。&lt;/p&gt;
 
@@ -247,7 +247,7 @@ drwxr-xr-x 59 root  root  4.0K Nov  5  2014 ..
 
 &lt;p&gt;変換と同時に看板の内部データに変換済みのフラグを埋め込むため、2重3重に変換がかかる心配はないが、1.8でこのフラグ無しですでに読み込んでしまったワールドは変換処理をせずJSON型で保存済みのため、その後 convertLegacySigns を有効にすると2重変換がかかり、下記のように看板の内容が破損する。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://www.ironingot.net/content/images/2015/10/2014-12-06_03-40-31.jpg" alt="空行が null になり、文章行は " "="" で囲まれる"=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://page-ironingot-fubira.c9.io/content/images/2015/10/2014-12-06_03-40-31.jpg" alt="空行が null になり、文章行は " "="" で囲まれる"=""&gt;&lt;/p&gt;
 
 &lt;p&gt;すでに1.8で起動してしまったワールドを今後も使いたい場合、後からconvertLegacySignsを設定するのはおすすめできない。泣きながらワールド中の看板を貼り直すことになる可能性が高い。&lt;/p&gt;
 

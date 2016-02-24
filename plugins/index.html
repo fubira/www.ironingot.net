@@ -161,7 +161,8 @@
   var raf = requestAnimationFrame || mozRequestAnimationFrame ||
       webkitRequestAnimationFrame || msRequestAnimationFrame;
   if (raf) { raf(cb); } else { window.addEventListener('load', cb); }
-</script>    <script>
+</script>    <link rel="stylesheet" href="../assets/lib/prism/prism.css?v=1bc7e31b11">
+<script>
   (function() {
     var l = document.createElement('script'); l.type = 'text/javascript'; l.async = true;
     l.src = '/assets/lib/prism/prism.js?v=1bc7e31b11';

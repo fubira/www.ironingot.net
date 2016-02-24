@@ -22,15 +22,15 @@
     <meta property="og:site_name" content="ironingot.net">
     <meta property="og:type" content="article">
     <meta property="og:title" content="CraftBukkit-1.8 memo">
-    <meta property="og:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java...">
+    <meta property="og:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。  $ java...">
     <meta property="og:url" content="https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/">
     <meta property="article:published_time" content="2014-12-05T19:49:00.000Z">
-    <meta property="article:modified_time" content="2015-10-14T17:10:15.998Z">
+    <meta property="article:modified_time" content="2016-02-24T09:30:43.168Z">
     <meta property="article:tag" content="Minecraft">
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="CraftBukkit-1.8 memo">
-    <meta name="twitter:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java...">
+    <meta name="twitter:description" content="Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。  $ java...">
     <meta name="twitter:url" content="https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/">
     
     <script type="application/ld+json">
@@ -49,9 +49,9 @@
     "headline": "CraftBukkit-1.8 memo",
     "url": "https://page-ironingot-fubira.c9.io/craftbukkit-1-8-memo/",
     "datePublished": "2014-12-05T19:49:00.000Z",
-    "dateModified": "2015-10-14T17:10:15.998Z",
+    "dateModified": "2016-02-24T09:30:43.168Z",
     "keywords": "Minecraft",
-    "description": "Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。 $ java..."
+    "description": "Bukkit/CraftBukkit/Spigot   Mojang配下の公式ではなく、Spigotチームが1.8対応を行ったBukkit/CraftBukkit。今のところ生成物は配布されていないので自力でビルドする必要がある。Java-SDK + gitの環境を整えてあれば java -jar BuildTools.jar で出来上がる。 公式のBukkitコミュニティで開発されたものでないため、今後どうなるかの見通しは不明。ただし公式のBukkitはそれ以上に不明。 看板データの変換問題 CraftBukkit 1.8より一部の内部データがJSON形式で保存されるようになっているが、1.8以前のワールドにおいて作成した看板の文字列にJSONのSyntaxが含まれていた場合、その文字が消えてしまう。  この時問題になるのが、LocketteプラグインでロックをしているワールドをCraftBukkit 1.8でロードすると、 全てのロックチェストの看板の[ ]が消滅し、ロックが外れる という現象が発生する。 セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。  $ java..."
 }
     </script>
 
@@ -116,7 +116,10 @@
 
 <p>セキュリティ強制全解除というあまりにもあんまりな現象のため回避策を探したところ、以下のようにサーバjar起動時のオプションに -DconvertLegacySign=true を追加することで、読み込んだワールドの看板データを変換処理してくれる機能が存在しているのを発見。</p>
 
-<p><code>$ java -Xmx1024M -Xms1024M -DconvertLegacySigns=true -jar craftbukkit.jar</code></p>
+<pre><code class="language-lang-bash"> $ java -Xmx1024M -Xms1024M -DconvertLegacySigns=true -jar craftbukkit.jar
+</code></pre>
+
+<p>`</p>
 
 <p>変換と同時に看板の内部データに変換済みのフラグを埋め込むため、2重3重に変換がかかる心配はないが、1.8でこのフラグ無しですでに読み込んでしまったワールドは変換処理をせずJSON型で保存済みのため、その後 convertLegacySigns を有効にすると2重変換がかかり、下記のように看板の内容が破損する。</p>
 
@@ -214,7 +217,8 @@
   var raf = requestAnimationFrame || mozRequestAnimationFrame ||
       webkitRequestAnimationFrame || msRequestAnimationFrame;
   if (raf) { raf(cb); } else { window.addEventListener('load', cb); }
-</script>    <script>
+</script>    <link rel="stylesheet" href="../assets/lib/prism/prism.css?v=1bc7e31b11">
+<script>
   (function() {
     var l = document.createElement('script'); l.type = 'text/javascript'; l.async = true;
     l.src = '/assets/lib/prism/prism.js?v=1bc7e31b11';

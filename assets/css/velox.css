@@ -178,16 +178,19 @@ blockquote cite {
     color: #808080
 }
 
+/*
 pre {
     word-wrap: break-word;
     font-size: .8em
 }
-
+*/
+/*
 pre,
 code {
     font-family: 'Monaco', courier, monospace;
     line-height: 1.5em
 }
+*/
 
 hr {
     display: block;
@@ -285,6 +288,7 @@ p:last-child {
     margin-bottom: 0
 }
 
+/*
 pre,
 code {
     background: none;
@@ -293,10 +297,12 @@ code {
     margin-bottom: 2rem;
     padding: 0
 }
-
+*/
+/*
 pre:last-child {
     margin-bottom: 0
 }
+*/
 
 small {
     font-size: .8rem
@@ -1106,15 +1112,17 @@ img {
     display: block;
     margin: 0 auto
 }
-
+/*
 pre {
-    padding: 1.5rem !important
+    padding: 1.5rem
 }
-
+*/
+/*
 pre,
 code {
-    background: #f0f0f0 !important
+    background: #f0f0f0
 }
+*/
 
 cite {
     font-weight: 600
@@ -1331,7 +1339,7 @@ only screen and (max-width:480px) {
         font-size: 1.6em
     }
 }
-
+/*
 code[class*="language-"],
 pre[class*="language-"] {
     color: #000;
@@ -1350,7 +1358,9 @@ pre[class*="language-"] {
     -ms-hyphens: none;
     hyphens: none
 }
+*/
 
+/*
 pre[class*="language-"]::-moz-selection,
 pre[class*="language-"]::-moz-selection,
 code[class*="language-"]::-moz-selection,
@@ -1361,7 +1371,8 @@ code[class*="language-"]::-moz-selection {
     -o-text-shadow: none;
     text-shadow: none
 }
-
+*/
+/*
 pre[class*="language-"]::selection,
 pre[class*="language-"]::selection,
 code[class*="language-"]::selection,
@@ -1372,7 +1383,8 @@ code[class*="language-"]::selection {
     -o-text-shadow: none;
     text-shadow: none
 }
-
+*/
+/*
 @media print {
     code[class*="language-"], pre[class*="language-"] {
         -webkit-text-shadow: none;
@@ -1382,10 +1394,12 @@ code[class*="language-"]::selection {
         text-shadow: none
     }
 }
-
+*/
+/*
 pre[class*="language-"] {
     overflow: auto
 }
+*/
 
 :not(pre) > code[class*="language-"] {
     padding: .1em;

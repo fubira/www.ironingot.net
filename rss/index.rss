@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>ironingot.net</title><description>minecraft server
-</description><link>https://page-ironingot-fubira.c9.io/</link><generator>Ghost 0.7</generator><lastBuildDate>Tue, 23 Feb 2016 09:56:35 GMT</lastBuildDate><atom:link href="https://page-ironingot-fubira.c9.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Atom</title><description>&lt;p&gt;テキストエディタをAtomに乗り換えようと思っているのだけど、Minecraftのログのようなsjisのファイルを開くことがたまにあるからどうしたものかと思っていたところ、auto-encodingというパッケージが解決してくれた。&lt;/p&gt;
+</description><link>https://page-ironingot-fubira.c9.io/</link><generator>Ghost 0.7</generator><lastBuildDate>Wed, 24 Feb 2016 09:22:49 GMT</lastBuildDate><atom:link href="https://page-ironingot-fubira.c9.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Atom</title><description>&lt;p&gt;テキストエディタをAtomに乗り換えようと思っているのだけど、Minecraftのログのようなsjisのファイルを開くことがたまにあるからどうしたものかと思っていたところ、auto-encodingというパッケージが解決してくれた。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://atom.io/packages/auto-encoding"&gt;auto-encoding&lt;/a&gt;&lt;/p&gt;
 
